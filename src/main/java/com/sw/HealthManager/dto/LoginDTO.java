@@ -1,15 +1,15 @@
 package com.sw.HealthManager.dto;
 
-public class LoginUserDTO {
+public class LoginDTO {
     private String id;
     private String password;
 
-    public LoginUserDTO(String id, String password) {
+    public LoginDTO(String id, String password) {
         this.id = id;
         this.password = password;
     }
 
-    public LoginUserDTO() {
+    public LoginDTO() {
     }
 
     public String getId() {
